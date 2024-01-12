@@ -1,0 +1,108 @@
+.mainPage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .pageLogoDiv {
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 1rem;
+    .pageLogo {
+      margin-top: 1%;
+      background-image: url(./Logos/Logo.png);
+      height: 100%;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .gamesDiv {
+    margin-top: 0.5%;
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "ArcadeClassic", sans-serif;
+
+    p {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    div {
+      margin-bottom: 1.5rem;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .navlink {
+        width: inherit;
+        height: 100%;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .gameLogo {
+      width: 70px;
+      height: 70px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 2px solid black;
+      border-radius: 20px;
+      margin-bottom: 0;
+
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+      }
+    }
+
+    .breakBricks {
+      background-image: url(./Logos/BreakBricksLogo.png);
+    }
+
+    .flappyDuck {
+      background-image: url(./Logos/FlappyDuckLogo.png);
+    }
+
+    .memory {
+      background-image: url(./Logos/MemoryLogo.png);
+    }
+
+    .pingPong {
+      background-image: url(./Logos/PingPongLogo.png);
+    }
+
+    .quiz {
+      background-image: url(./Logos/QuizLogo.png);
+    }
+
+    .tetris {
+      background-image: url(./Logos/TetrisLogo.png);
+    }
+
+    .snake {
+      background-image: url(./Logos/SnakeLogo.png);
+    }
+
+    .stackGame {
+      background-image: url(./Logos/StackGameLogo.png);
+    }
+
+    .ticTacToe {
+      background-image: url(./Logos/TicTacToeLogo.png);
+    }
+  }
+}

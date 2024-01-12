@@ -1,0 +1,54 @@
+.TicTacToe {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "ArcadeClassic", sans-serif;
+  font-size: 40px;
+
+  .gameGrid {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 74, 173, 1) 25%,
+      rgba(203, 108, 230, 1) 75%
+    );
+    border: 4px black solid;
+    display: grid;
+    width: 100%;
+    margin: 2rem auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1em;
+
+    .cell {
+      width: 120px;
+      height: 120px;
+      border: 1px solid black;
+      font-size: 110px;
+    }
+  }
+
+  .buttonsDiv {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    .restartGame {
+      margin-top: 2rem;
+      font-size: 1rem;
+      font-family: "ArcadeClassic", sans-serif;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: 2px solid black;
+      border-radius: 20px;
+      text-align: center;
+      background: linear-gradient(
+        90deg,
+        rgba(0, 74, 173, 1) 25%,
+        rgba(203, 108, 230, 1) 75%
+      );
+    }
+  }
+}

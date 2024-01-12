@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(./2684957.jpg);
+  background-position: center; /* Ustawia pozycję obrazu na środku elementu */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  .gameContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+.returnButton {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-family: "ArcadeClassic", sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 74, 173, 1) 25%,
+    rgba(203, 108, 230, 1) 75%
+  );
+}
