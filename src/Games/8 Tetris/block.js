@@ -11,8 +11,10 @@ export default class Block {
   x = 4;
   y = 2;
 
+  url = process.env.PUBLIC_URL + "/blocks.json";
+
   init = async () => {
-    await this.loadBlocks("blocks.json");
+    await this.loadBlocks(this.url);
     return this;
   };
 

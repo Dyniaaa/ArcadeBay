@@ -6,6 +6,8 @@ function Quiz() {
   class Quiz {
     currentQuestionIndex = -1;
 
+    url = process.env.PUBLIC_URL + "/Questions.json";
+
     async init() {
       console.log("initapp");
 
@@ -29,7 +31,7 @@ function Quiz() {
     }
 
     loadData = async () => {
-      const serverData = await fetch("./Questions.json");
+      const serverData = await fetch(this.url);
       const jsonData = await serverData.json();
 
       if (!jsonData.questions) {
@@ -147,8 +149,6 @@ function Quiz() {
               question.userSelectedIndex
             }, correctAnswer: ${question.correctAnswer}`
           );
-
-          const isCorrect = question.userSelectedIndex === question.correctAnswer;
 
           return `
           <h4>Pytanie nr. ${questionIndex + 1} : ${question.q}</h4>

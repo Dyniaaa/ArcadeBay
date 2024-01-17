@@ -1,5 +1,10 @@
 import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
+import bgImage from "./imagesFD/bg/1.png";
+import birdImg from "./imagesFD/bird.png";
+import pipeBottomImg from "./imagesFD/pipeBottom.png";
+import pipeTopImg from "./imagesFD/pipeTop.png";
+import sound from "./imagesFD/kwak.mp3";
 
 function FlappyDuck() {
   const game = useRef(null);
@@ -30,21 +35,19 @@ function FlappyDuck() {
       this.context = this.canvas.getContext("2d");
 
       this.bird = new Image();
-      this.bird.src = "./FlappyBirdImages/bird.png";
+      this.bird.src = birdImg;
 
       this.bg = new Image();
-      this.bg.src = `./FlappyBirdImages/bg/${
-        Math.floor(Math.random() * 3) + 1
-      }.png`;
+      this.bg.src = bgImage;
 
       this.pipeTop = new Image();
-      this.pipeTop.src = "./FlappyBirdImages/pipeTop.png";
+      this.pipeTop.src = pipeTopImg;
 
       this.pipeBottom = new Image();
-      this.pipeBottom.src = "./FlappyBirdImages/pipeBottom.png";
+      this.pipeBottom.src = pipeBottomImg;
 
       this.flyAudio = new Audio();
-      this.flyAudio.src = "./FlappyBirdImages/kwak.mp3";
+      this.flyAudio.src = sound;
 
       document.addEventListener("click", this.moveUp);
       document.addEventListener("keydown", (e) => {

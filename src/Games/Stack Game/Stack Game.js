@@ -33,7 +33,7 @@ const ThreeJSGame = () => {
     const geometryHelper = new GeometryHelper();
 
     const cubeTextures = new THREE.CubeTextureLoader()
-      .setPath("./cube1/")
+      .setPath(process.env.PUBLIC_URL + "/cube1/")
       .load(["px.jpg", "nx.jpg", "py.jpg", "ny.jpg", "pz.jpg", "nz.jpg"]);
 
     scene.background = cubeTextures;
