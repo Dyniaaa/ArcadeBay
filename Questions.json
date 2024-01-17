@@ -1,0 +1,30 @@
+{
+  "quizMaxTime": 52,
+  "questions": [
+    {
+      "q": "ile to jest 48 razy 23",
+      "answers": ["1104", "1096", "1152", "1052"],
+      "correctAnswer": 0
+    },
+    {
+      "q": "ile to jest 20 razy 13",
+      "answers": ["280", "240", "260", "270"],
+      "correctAnswer": 2
+    },
+    {
+      "q": "ile to jest 5 razy 123",
+      "answers": ["610", "615", "620", "625"],
+      "correctAnswer": 1
+    },
+    {
+      "q": "ile to jest 765 razy 3",
+      "answers": ["2300", "2345", "2400", "2295"],
+      "correctAnswer": 3
+    },
+    {
+      "q": "ile to jest 43 razy 7",
+      "answers": ["301", "294", "308", "315"],
+      "correctAnswer": 0
+    }
+  ]
+}

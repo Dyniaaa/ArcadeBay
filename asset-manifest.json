@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ArcadeBay/static/css/main.3f59bccc.css",
+    "main.js": "/ArcadeBay/static/js/main.d310359e.js",
+    "static/js/787.b7dd59f2.chunk.js": "/ArcadeBay/static/js/787.b7dd59f2.chunk.js",
+    "static/media/Logo.png": "/ArcadeBay/static/media/Logo.48b8eeef3ff28f07f78b.png",
+    "static/media/2684957.jpg": "/ArcadeBay/static/media/2684957.a8d9270f227c7f5ebd0c.jpg",
+    "static/media/1.png": "/ArcadeBay/static/media/1.022ce261aeddb3484d77.png",
+    "static/media/FlappyDuckLogo.png": "/ArcadeBay/static/media/FlappyDuckLogo.e23aa82b0a61d6087862.png",
+    "static/media/PingPongLogo.png": "/ArcadeBay/static/media/PingPongLogo.aa53853817ae01f015b6.png",
+    "static/media/QuizLogo.png": "/ArcadeBay/static/media/QuizLogo.6c43a6af300dd4547183.png",
+    "static/media/TicTacToeLogo.png": "/ArcadeBay/static/media/TicTacToeLogo.b5340edc449c82b16c02.png",
+    "static/media/SnakeLogo.png": "/ArcadeBay/static/media/SnakeLogo.bed74cb4d11a85334497.png",
+    "static/media/BreakBricksLogo.png": "/ArcadeBay/static/media/BreakBricksLogo.1e2f89fd40e1c8dc2d75.png",
+    "static/media/StackGameLogo.png": "/ArcadeBay/static/media/StackGameLogo.ab00b774708b48ea9ea9.png",
+    "static/media/MemoryLogo.png": "/ArcadeBay/static/media/MemoryLogo.7ee53c7ce1f781b4de98.png",
+    "static/media/TetrisLogo.png": "/ArcadeBay/static/media/TetrisLogo.2d9da0610d5fe21740a8.png",
+    "static/media/pipeBottom.png": "/ArcadeBay/static/media/pipeBottom.a23a624774e134d9a27e.png",
+    "static/media/pipeTop.png": "/ArcadeBay/static/media/pipeTop.a23a624774e134d9a27e.png",
+    "static/media/kwak.mp3": "/ArcadeBay/static/media/kwak.f975aad6282856945e5d.mp3",
+    "index.html": "/ArcadeBay/index.html",
+    "main.3f59bccc.css.map": "/ArcadeBay/static/css/main.3f59bccc.css.map",
+    "main.d310359e.js.map": "/ArcadeBay/static/js/main.d310359e.js.map",
+    "787.b7dd59f2.chunk.js.map": "/ArcadeBay/static/js/787.b7dd59f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f59bccc.css",
+    "static/js/main.d310359e.js"
+  ]
+}
